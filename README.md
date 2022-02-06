@@ -1,2 +1,27 @@
-# EmpowerHer-Suraksha
- WIE Hackathon Project
+
+
+# EMPOWHER
+Empowher is a web based application designed, keeping women empowerment and safety in mind. 
+
+The moto of this web app to Empower Her.
+
+Some salient features are:
+1. News articles highlighting issues pertaining to gender based crimes, 
+2. An emergency button for connecting trusted people, 
+3. Various maps features for aleviated location based awareness 
+4. Information pertaining to the rights and law provided under the the Indain Penal Code and Indian Constitution.
+
+Guidelines for installing -
+
+1. Check for virtual env: <br>
+<code>py -m pip install --user virtualenv</code>
+2. Create virtual env with name suraksha: <br>
+<code>py -m venv suraksha</code>
+3. Activate virtual env: <br>
+<code>.\suraksha\Scripts\activate</code>
+4. Install required dependencies:  <br>
+<code>pip install -r requirements.txt</code>
+5. Change directory to website:
+<code>cd website</code>
+6. Run Project Server:
+<code>python manage.py runserver</code>
